@@ -1,4 +1,4 @@
-baseurl = "https://polymorphic.software"
+baseURL = "https://polymorphic.software"
 languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
@@ -70,7 +70,7 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Polymorphic Software Engineering and Development"
+    title = "Polymorphic Software"
 
     [languages.en.params]
       subtitle = "Polymorphic is a Software Engineering and Development Company specialized in building reliable systems in a timely manner."
