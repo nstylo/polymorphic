@@ -1,0 +1,39 @@
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  ::placeholder {
+    color: var(--foreground-muted);
+  }
+}
+
+form>label {
+  margin-bottom: .5rem;
+}
+
+form .required::after {
+  content: "*";
+  color: var(--foreground-muted);
+  margin-left: 4px;
+}
+
+form>input {
+  height: 48px;
+  border-color: var(--foreground-muted);
+}
+
+form>textarea {
+  resize: vertical;
+  height: 200px;
+  border-color: var(--foreground-muted);
+}
+
+form>button {
+  margin-top: .5rem;
+  height: 52px;
+}
+
+.form-input {
+  margin-bottom: 1.5rem;
+}
