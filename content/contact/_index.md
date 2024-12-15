@@ -1,3 +1,9 @@
+---
+title: "Contact"
+date: 2024-12-15
+draft: false
+---
+
 ## Contact Form
 
 Have a question or project in mind? We're happy to help. Drop us a message below.
